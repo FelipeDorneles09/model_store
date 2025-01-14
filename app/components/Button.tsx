@@ -28,7 +28,13 @@ const Button = ({
       className={`${baseClasses} ${variantClasses}`}
       {...props}
     >
+<<<<<<< HEAD
       <span className="flex items-center">{children}</span>
+=======
+      <span className="flex items-center">
+        {children}
+      </span>
+>>>>>>> 0da712db7a4cf981447137d3c7b136f67799f15a
     </button>
   );
 };
