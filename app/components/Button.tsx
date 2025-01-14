@@ -28,9 +28,8 @@ const Button = ({
       className={`${baseClasses} ${variantClasses}`}
       {...props}
     >
-      <span className="flex items-center gap-2">
+      <span className="flex items-center">
         {children}
-        {endIcon && <span>{endIcon}</span>}
       </span>
     </button>
   );
